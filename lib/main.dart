@@ -5,11 +5,15 @@ void main() {
     home: Scaffold(
       appBar: AppBar(
         title: Text('My First App'),
+       
       ),
       body: Center(
         child: Text('Hello World!'),
       ),
+      floatingActionButton: FloatingActionButton(
+      onPressed: () {  },
+      child: Icon(Icons.add_a_photo),
     ),
-  ));
+  )));
 }
 
