@@ -5,8 +5,9 @@ void main() {
     home: Scaffold(
       appBar: AppBar(
         title: Text('My First App'),
-       
+         backgroundColor: Colors.amber,
       ),
+    
       body: Center(
         child: Text('Hello World!'),
       ),
